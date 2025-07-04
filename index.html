@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rangga Motor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Toko Automotor</h1>
+    <p>Temukan Sperpart Yang Pengen Anda Cari</p>
+  </header>
+
+  <nav>
+    <a href="#produk">Produk</a>
+    <a href="#tentang">Tentang Kami</a>
+    <a href="#kontak">Kontak</a>
+  </nav>
+
+  <section id="produk">
+    <h2>Daftar Sperpart</h2>
+    <div class="produk-container">
+      <div class="produk">
+        <img src="1cb893af-568f-4fd6-bfbd-319a86908c93" alt="Barang 1">
+        <h3>Packing Vario 150</h3>
+        <p>Harga: Rp80.000</p>
+      </div>
+      <div class="produk">
+        <img src="Head-Comp-Cylinder-1220AK59A10.jpg" alt="Barang 2">
+        <h3>Head vario 150</h3>
+        <p>Harga: Rp900.000</p>
+      </div>
+      <div class="produk">
+        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.webike.id%2Fsd%2Fid5053168%3Fsrsltid%3DAfmBOoopXKy18hR6LIWh_QiiZazb0MqgeIuWiIKTkvAv8n13zD4IEDum&psig=AOvVaw3yrNwDuruZ_5MsYU_yAcws&ust=1751645270335000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLCYhaOJoY4DFQAAAAAdAAAAABAE" alt="Barang 3">
+        <h3>Ecu Juken </h3>
+        <p>Harga: Rp1.400.000</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="tentang">
+    <h2>Tentang Kami</h2>
+    <p>Kami menjual berbagai sperpart motor berkualitas dari merek ternama seperti Honda, Yamaha, dan Vespa.</p>
+  </section>
+
+  <section id="kontak">
+    <h2>Hubungi Kami</h2>
+    <p>Email: ranggaaditya2114@gmail.com</p>
+    <p>Instagram: <a href="#">@ranggaid.21</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Rangga Motor. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
+
+<section id="pesan">
+  <h2>Form Pemesanan</h2>
+  <form action="#" method="post" class="form-pesan">
+    <label for="nama">Nama Lengkap:</label>
+    <input type="text" id="nama" name="nama" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="motor">Pilih Motor:</label>
+    <select id="motor" name="motor" required>
+      <option value="">-- Pilih Motor --</option>
+      <option value="Packing vario">Packing Vario 150</option>
+      <option value="Head">Head vario 150</option>
+      <option value="Ecu">Ecu juken</option>
+    </select>
+
+    <label for="pesan">Catatan Tambahan:</label>
+    <textarea id="pesan" name="pesan" rows="4"></textarea>
+
+    <button type="submit">Kirim Pesanan</button>
+  </form>
+</section>
